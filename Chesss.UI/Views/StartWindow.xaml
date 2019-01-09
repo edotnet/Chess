@@ -1,0 +1,18 @@
+﻿<Window x:Class="Chesss.UI.Views.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chesss.UI.Views"
+        mc:Ignorable="d"
+        Title="StartWindow" Height="400" Width="400">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Content/Images/chess-background.jpg" Stretch="UniformToFill"></ImageBrush>
+        </Grid.Background>
+        <Button HorizontalAlignment="Left" Margin="150,45,0,0" VerticalAlignment="Top" Width="110" Height="40"
+                Command="{Binding NewGame}" Background="Transparent" BorderThickness="0" >
+            <TextBlock FontSize="30" FontWeight="Medium" FontFamily="Microsoft JhengHei UI Light" Foreground="#FFE2BDBD">Start</TextBlock>
+        </Button>
+    </Grid>
+</Window>

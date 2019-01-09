@@ -1,0 +1,9 @@
+﻿<Application x:Class="Chesss.UI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Chesss.UI"
+             StartupUri="Views/StartWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
